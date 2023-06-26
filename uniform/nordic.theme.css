@@ -18,6 +18,9 @@
  * CUSTOMIZATION
  * Add '!important' non hsl discord colors, like 'primary-dark-200'
  */
+*{
+    font-family: Cascadia Code Light;
+}
 :root {
 }
 .theme-dark {
