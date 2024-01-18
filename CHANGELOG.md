@@ -1,3 +1,36 @@
+## [4.10.8](https://github.com/orblazer/discord-nordic/compare/v4.10.7...v4.10.8) (2023-11-14)
+
+
+### Bug Fixes
+
+* right uniform colors ([30ef6ab](https://github.com/orblazer/discord-nordic/commit/30ef6abde6e738ee5898b9413b9b73ac810d5ae9)), closes [#30](https://github.com/orblazer/discord-nordic/issues/30)
+* **popup:** right colors for what's new ([ae7ebb2](https://github.com/orblazer/discord-nordic/commit/ae7ebb24ce7e1172e27abd247a19b288f2ff972c))
+* **user:** apply style on all badges ([921988f](https://github.com/orblazer/discord-nordic/commit/921988fbe3931fef6d5fe52ebbae39bd1bfba1f3))
+
+
+
+## [4.10.7](https://github.com/orblazer/discord-nordic/compare/v4.10.6...v4.10.7) (2023-10-30)
+
+
+### Bug Fixes
+
+* update to last discord version ([0e2c3a5](https://github.com/orblazer/discord-nordic/commit/0e2c3a540e535f18340f5906cfcaa2daf6b96cf3))
+
+
+
+## [4.10.6](https://github.com/orblazer/discord-nordic/compare/v4.10.5...v4.10.6) (2023-10-17)
+
+
+### Bug Fixes
+
+* **button:** right text color for pagination ([21c19f1](https://github.com/orblazer/discord-nordic/commit/21c19f1445bfef9e2b0993cc3e97a17eb0bcd1c2))
+* **colors:** fix send friend request button ([dd783cc](https://github.com/orblazer/discord-nordic/commit/dd783ccfa56d0aa8fea483171aa6bfecee41ff2c))
+* **global:** right icon colors on voice buttons ([ae55010](https://github.com/orblazer/discord-nordic/commit/ae55010f0611b775d7bcdbbf91dea0d3a4464489))
+* **settings:** right color for premium feature banner ([9310fe8](https://github.com/orblazer/discord-nordic/commit/9310fe8b92f1b86dea68135ad24bdadba7d9b00f))
+* **sidebar:** right color for connected voice ([cfb708f](https://github.com/orblazer/discord-nordic/commit/cfb708f4f2bc315c1bbf501ac6d72391244812b2))
+
+
+
 ## [4.10.5](https://github.com/orblazer/discord-nordic/compare/v4.10.4...v4.10.5) (2023-04-20)
 
 
