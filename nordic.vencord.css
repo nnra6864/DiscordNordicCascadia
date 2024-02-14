@@ -19,7 +19,7 @@
  * CUSTOMIZATION
  * Add '!important' non hsl discord colors, like 'primary-dark-200'
  */
-*::after{
+*:after{
     font-family: Cascadia Code;
 }
 :root {
