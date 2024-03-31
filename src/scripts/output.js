@@ -1,4 +1,4 @@
-import { writeFile } from 'fs/promises'
+import { readFile, writeFile } from 'fs/promises'
 import { join } from 'path'
 
 export function betterDiscord(baseDir, pkg, css) {
@@ -68,51 +68,6 @@ export function stylus(baseDir, pkg, css) {
   )
 }
 
-export async function powercord(baseDir, pkg, css) {
-  await writeFile(
-    join(baseDir, 'nordic.powercord.css'),
-    `/**
- * @name        Nordic
- * @author      orblazer#9152
- * @version     ${pkg.version}
- * @description ${pkg.description}
- * @source      ${pkg.repository}
- * @donate      ${pkg.funding}
- */
-/**
- * SOURCE CODE
- * /!\\ DON'T TOUCH ! /!\\
- */
-${css}
-
-/**
- * CUSTOMIZATION
- * Add '!important' non hsl discord colors, like 'primary-dark-200'
- */
-:root {
-}
-.theme-dark {
-}
-.theme-light {
-}`
-  )
-  await writeFile(
-    join(baseDir, 'powercord_manifest.json'),
-    JSON.stringify(
-      {
-        version: pkg.version,
-        name: 'Nordic',
-        description: pkg.description,
-        author: 'orblazer#9152',
-        license: 'CC BY-NC-SA 4.0',
-        theme: 'nordic.powercord.css',
-      },
-      null,
-      2
-    )
-  )
-}
-
 export function vencord(baseDir, pkg, css) {
   return writeFile(
     join(baseDir, 'nordic.vencord.css'),
@@ -142,4 +97,18 @@ ${css}
 .theme-light {
 }`
   )
+}
+
+export async function replugged(baseDir, pkg, css) {
+  // Sync manifest.json
+  const manifestFilepath = join(baseDir, 'manifest.json')
+  const manifest = JSON.parse(await readFile(manifestFilepath))
+  manifest.version = pkg.version
+  manifest.description = pkg.description
+  manifest.source = pkg.repository
+
+  return Promise.allSettled([
+    writeFile(manifestFilepath, JSON.stringify(manifest, null, 2)),
+    writeFile(join(baseDir, 'nordic.replugged.css'), css),
+  ])
 }
