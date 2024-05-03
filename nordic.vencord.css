@@ -20,13 +20,13 @@
  * Add '!important' non hsl discord colors, like 'primary-dark-200'
  */
 *{
-    font-family: "CaskaydiaCove Nerd Font";
+    font-family: "Cascadia Code NF";
 }
 :root {
-    font-family: "CaskaydiaCove Nerd Font";
+    font-family: "Cascadia Code NF";
 }
 body {
-    font-family: "CaskaydiaCove Nerd Font";
+    font-family: "Cascadia Code NF";
 }
 .theme-dark {
 }
