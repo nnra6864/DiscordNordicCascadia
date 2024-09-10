@@ -1,3 +1,55 @@
+## [4.10.17](https://github.com/orblazer/discord-nordic/compare/v4.10.16...v4.10.17) (2024-09-09)
+
+
+### Bug Fixes
+
+* update to last discord version ([dfbb2df](https://github.com/orblazer/discord-nordic/commit/dfbb2df9849957b92bccecdf6d5c3b2199fe72da))
+
+
+### Features
+
+* **discover:** colorize quest background ([adaaaa1](https://github.com/orblazer/discord-nordic/commit/adaaaa19926c9efe8604b5c0fce52a7f058d8f01))
+
+
+
+## [4.10.16](https://github.com/orblazer/discord-nordic/compare/v4.10.15...v4.10.16) (2024-07-26)
+
+
+### Bug Fixes
+
+* update to last discord version ([50cf2a7](https://github.com/orblazer/discord-nordic/commit/50cf2a74227e66707d3d3358b5e3949eaed2b733))
+
+
+
+## [4.10.15](https://github.com/orblazer/discord-nordic/compare/v4.10.14...v4.10.15) (2024-07-19)
+
+
+### Bug Fixes
+
+* add missing colors tweak ([7ad0321](https://github.com/orblazer/discord-nordic/commit/7ad032159f552c969bb7e44079fee33b9b15ad5d))
+* update to last discord version ([33a72b0](https://github.com/orblazer/discord-nordic/commit/33a72b049200470e0035627f315224cd073a77ed))
+
+
+
+## [4.10.14](https://github.com/orblazer/discord-nordic/compare/v4.10.13...v4.10.14) (2024-06-24)
+
+
+### Bug Fixes
+
+* **global:** prevent not lisible user popup ([99b8a35](https://github.com/orblazer/discord-nordic/commit/99b8a351a52e9af0a48bb2554801bb75f71802e6))
+
+
+
+## [4.10.13](https://github.com/orblazer/discord-nordic/compare/v4.10.11...v4.10.13) (2024-06-19)
+
+
+### Bug Fixes
+
+* update to last discord version ([1a1a222](https://github.com/orblazer/discord-nordic/commit/1a1a222d1892a9e92984398cc285ec2a086c2da4))
+* update to last discord version ([fda3187](https://github.com/orblazer/discord-nordic/commit/fda3187bed401089f7951a37105570f60e5c20bd))
+
+
+
 ## [4.10.12](https://github.com/orblazer/discord-nordic/compare/v4.10.11...v4.10.12) (2024-06-15)
 
 
